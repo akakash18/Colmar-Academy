@@ -102,10 +102,6 @@ ul li{
     margin-bottom: 32px;
 }
 
-.font-dark{
-
-}
-
 .boxes{
     margin: 32px 72px;
 }
@@ -222,12 +218,12 @@ video h3{
 
     .bg-color{
         background-color: #d8d8d8;
-        height: 43rem;
+        height: 40.5rem;
     }
 
     .banner-image{
         width: 100%;
-        height: 400px;
+        height: 350px;
     }
 
     .right{
@@ -236,7 +232,8 @@ video h3{
 
     .position-center{
         margin: 32px 62px;
-        text-align: left;
+        align-items: center;
+        justify-content: center;
     }
 
     .bold-text{
@@ -253,6 +250,7 @@ video h3{
     .para12{
         font-size: 1.2rem;
         width: 80vw !important;
+        margin-top: -15px;
     }
 
     .mob-btn{
@@ -291,7 +289,6 @@ video h3{
         border: 0;
         padding: 16px auto 34px 16px;
         margin-bottom: 8px;
-        width: 90vw !important;
     }
 
     .box:hover{
@@ -324,6 +321,7 @@ video h3{
 
     .change{
         color: #4a4a4a;
+        font-size: 0.9rem
     }
 }
 
