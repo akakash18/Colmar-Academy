@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    padding-left: 16px;
+    color: #9b9b9b;
+    padding-top: 15px;
+}
+
+#navbar{
+    height: 64px;
+    padding: 0 24px;
+}
+
+.banner-image{
+    width: 100%;
+    height: 596px;
+}
+
+.banner-image-2{
+    width: 100%;
+    height: 438px;
+}
+
+.bg-color{
+    background-color: #d8d8d8;
+    height: 660px;
+}
+
+.bg-color2{
+    background-color: #d8d8d8;
+    height: 58rem;
+}
+
+.left{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.left-img-2{
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.right{
+    width: 40%;
+}
+
+.position-center{          
+    margin-top: 10rem;
+}
+
+.position-center1{          
+    margin:auto 0;
+}
+
+
+.left-img{
+    width: 35%;
+    margin: 16px 16px;
+
+}
+
+.right-info{
+    width: 65%;
+}
+
+.sm-image{
+    width: 100%;
+}
+
+.m-top{
+    margin-top: 16px;
+}
+
+.head-margin{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.author{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.font-dark{
+
+}
+
+.boxes{
+    margin: 32px 72px;
+}
+
+.box{
+    margin-bottom: 32px;
+    margin-right: 32px;
+    width: 24rem;
+}
+
+.img{
+    width: auto;
+    height: auto;
+}
+
+.content-section h1{
+    margin-top: 32px;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.thesis-head{
+    text-align: center;
+    padding-top: 32px;
+}
+
+video{
+    width: 100%;
+}
+
+video h3{
+    margin-top:24px;
+}
+
+.para{
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.footer{
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 75px;
+}
+
+.terms{
+    display: flex;
+    float: right;
+}
+
+.space{
+    margin-left: 16px;
+}
+
+.logo{
+    font-size: 28px
+}
+
+.dark-color{
+    color: #4a4a4a;
+}
+
+.bg-dark{
+    color: #4a4a4a;
+}
+
+.light-color{
+    color: #9b9b9b;
+}
+
+.font20{
+    color: #9b9b9b;
+}
+
+.font25{
+    font-size: 1.5rem;
+}
+
+.pad{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 32px auto;
+}
+
+#padding{
+    padding-top: 24px;
+}
+.mobile-nav{
+    display: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:865px) {
+    .mobile-nav{
+        display: block;
+        height: 64px;
+        padding-top: 0.3rem;
+    }
+    
+    .hide-nav{
+        display: none !important;
+    }
+    
+    .mobile-dis{
+        display: block !important;
+    }
+
+    .left{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .bg-color{
+        background-color: #d8d8d8;
+        height: 42rem;
+    }
+
+    .banner-image{
+        width: 100%;
+        height: 400px;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .position-center{
+        margin: 32px 62px;
+        text-align: left;
+    }
+
+    .bold-text{
+        font-weight:bolder;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .bmar{
+        margin-bottom:32px;
+    }
+
+    .para12{
+        font-size: 1.2rem;
+        width: 80vw !important;
+    }
+
+    .mob-btn{
+        background-color: #9b9b9b !important;
+        width: 70vw !important;
+    }
+
+    .left-img-2{
+        display: none;
+    }
+
+    .left-img{
+        display: none;
+    }
+
+    .dblock{
+        display: block !important;
+    }
+
+    .m-img{
+        margin: 16px;
+    }
+    
+    .left-mar{
+        margin-left: 32px;
+        line-height: 1.5rem;
+    }
+
+    .dnone{
+        display: none;
+    }
+    
+    .box{
+        background-color: #d8d8d8;
+        border-radius: 0;
+        border: 0;
+        padding: 16px auto 34px 16px;
+        margin-bottom: 8px;
+        width: 90vw !important;
+    }
+
+    .box:hover{
+        background-color:#9b9b9b;
+    }
+
+    .bg-color2{
+        background-color: white;
+        height: 36rem;
+    }
+
+    .position-center1{
+        margin-bottom: 16px;
+    }
+
+    .margin{
+        margin-top: -15px;
+        margin-bottom: 16px;
+    }
+
+    video{
+        width: 200%;
+        height: auto;
+    }
+
+    .footer{
+        align-items: center;
+        padding: 15px;
+    }
+
+    .change{
+        color: #4a4a4a;
+    }
+}
+
+
+@media screen and (min-width: 864px) {
+    .box{
+        width: 12rem;
+        height: 16rem;
+    }
+
+    .bg-color2{
+        height:44rem; 
+    }
+    .boxes{
+        margin:auto;
+        justify-content:center;
+    }
+    .mbottom{
+        margin-bottom: 32px;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .text-size{
+        font-size: 0.8rem;
+        word-wrap: break-word;
+        width: 10rem !important;
+    }
+    .para12{
+        font-size: 1.1rem;
+    }
+    .heading1{
+        font-size: 1.2rem;
+    }
+    .para1{
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        width: 10rem !important;
+    }
+    .heading2{
+        width: 80vw;
+    }
+    .head-para{
+        width: 90vw;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .box{
+        width: 15rem;
+        height:17rem;
+    }
+    .bg-color2{
+        height:46rem;
+    }
+    .mbottom{
+        margin-bottom: 32px;
+    }
+    .card-title{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1112px) {
+    .box{
+        width: 17rem;
+        height:19rem;
+    }
+    .bg-color2{
+        height:51rem;
+    }
+    
+    .mbottom{
+        margin-bottom: 32px;
+    }
+    .card-title{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1240px) {
+    .box{
+        width: 21rem;
+        height:22rem
+    }
+    .bg-color2{
+        height:56rem;
+    }
+    .mbottom{
+        margin-bottom: 32px;
+    }
+    .heading1{
+        font-size:1.6rem;
+    }
+    .head-para{
+        width:50vw;
+    }
+    .card-title{
+        font-size:1.9rem;
+    }
+    .text-size{
+        font-size:1rem;
+        width:18rem !important;
+    }
+    .para12{
+        font-size:1.5rem;
+    }
+    .bold-text{
+        font-size:3rem;
+        font-weight:bolder;
+    }
+    .mob-btn{
+        width:22rem !important;
+    }
+    
+}
+
+@media screen and (min-width: 1496px) {
+    .box{
+        width: 26rem;
+        height:24rem;
+    }
+    .text-size{
+        width:22rem !important;
+    }
+    .bg-color2{
+        height:60rem;
+    }
+    .mbottom{
+        margin-bottom: 32px;
+    }
+    .heading1{
+        font-size:2rem;
+    }
+    .para1{
+        font-size:1.1rem;
+        width:17rem !important;
+    }
+}
+
+.hover:hover{
+    background-color: #d8d8d8;
+}
